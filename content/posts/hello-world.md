@@ -1,7 +1,7 @@
 ---
 title: "Hello World"
 date: 2022-01-14T13:59:56Z
-draft: true
+draft: false
 ---
 
 This is the obligatory "Hello World!" post. 
