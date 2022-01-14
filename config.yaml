@@ -1,0 +1,33 @@
+
+baseUrl: ""
+title: "Anubis"
+theme: "anubis"
+paginate: 10
+
+enableRobotsTXT: true
+
+menu:
+  main:
+  - identifier: archive
+    name: "Archive"
+    title: "Archive"
+    url: /posts/
+    weight: 0
+
+params:
+  author: "Jamie Curle"
+  email: mail@example.org # used for microformats
+  avatar: "/images/me.png" # used for microformats
+  description: ""
+  dateFormat: "2006-01-02"
+  paginationSinglePost: true
+  style: light-without-switcher
+  readMore: false
+  disableSummary: false
+
+
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # enable raw HTML in Markdown
