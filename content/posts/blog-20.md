@@ -13,7 +13,7 @@ In 2018 by accident, when attempting to cleanup and backup my AWS account, I  de
 
 ###  Social
 
-More recently I annihilated all of my social accounts - Twitter, Facebook, Instagram, LinkedIn etc etc. I (*me, not you*) found no use or practical application for them in my life.  My experience of these platforms and their impact on my attention was not positive. This blog will explore attention in some depth and hopefully in a higher quality than "man writes uninformed opinion based blog posts". This kind of writing takes time, and so events must unfold first.
+More recently I annihilated all of my social accounts - Twitter, Facebook, Instagram, LinkedIn etc etc. I (*me, not you*) found no use or practical application for them in my life.  My experience of these platforms and their impact on my attention was not positive. This blog will explore attention in some depth and hopefully in a higher quality than "man writes uninformed opinion based blog posts". This kind of writing takes time, and so events must first unfold.
 
 ###  Privacy
 
