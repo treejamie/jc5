@@ -1,12 +1,14 @@
 ---
-title: "This Blog"
+title: "Blog 2.0"
 date: 2022-01-20T08:21:48Z
 draft: false
+summary: "What can be expected from Blog 2.0?"
+description: "Blog 2.0"
 ---
 
 ###  Deletion
 
-In 2018 by accident, when attempting to cleanup and backup my AWS account, I  deleted all of the assets from my decade-ish of blog posts. It made sense, rather than to cry over spilt milk, to then delete the blog posts as well. At least that made sense to me.  Some (*sensible I suppose*) people may have instead attempted to recover the files, and solve the problem. An event had unfolded before me, but I didn't see it as a problem, I saw it as an opportunity. It was an opportunity to open up some mental space. A opportunity to lesson my non-professional technical surface but most important an opportunity to let something go that had been a part of me for nine years. This blog will explore what happened in that mental space at length, as events unfold.
+In 2018 by accident, when attempting to cleanup and backup my AWS account, I  deleted all of the assets from my decade-ish of blog posts. It made sense, rather than to cry over spilt milk, to then delete the blog posts as well. At least that made sense to me.  Some (*sensible I suppose*) people may have instead attempted to recover the files, and solve the problem. An event had unfolded before me, but I didn't see it as a problem, I saw it as an opportunity. It was an opportunity to open up some mental space. A opportunity to lessen my non-professional technical surface but most important an opportunity to let something go that had been a part of me for nine years. This blog will explore what happened in that mental space at length, as events unfold.
 
 
 ###  Social

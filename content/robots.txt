@@ -1,5 +1,0 @@
-# Why would I write a blog and block search engines?
-# This is a good question.
-User-agent: *
-  Disallow: /
-
