@@ -3,7 +3,7 @@ baseUrl: ""
 title: "Jamie Curle"
 theme: "anubis"
 paginate: 10
-enableRobotsTXT: true
+enableRobotsTXT: false
 
 menu:
   main:
