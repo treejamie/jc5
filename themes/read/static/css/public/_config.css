@@ -1,0 +1,79 @@
+:root {
+
+	--jc-font-monospace: "SFMono-Regular",  Consolas, "Liberation Mono", Menlo, monospace;
+	--jc-font-sans:  Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji","Segoe UI Symbol";
+	--jc-font-serif: serif;
+
+	--jc-unit-sixteenth: 1px;
+	--jc-unit-eighth: 2px;
+	--jc-unit-quarter: 4px;
+	--jc-unit-third: 6px;
+	--jc-unit-half: 8px;
+	--jc-unit: 16px;
+	--jc-unit-1-point-5: 24px;
+	--jc-unit-double: 32px;
+	--jc-unit-triple: 48px;
+
+
+	--jc-black-100: #2A2929;
+	--jc-black-90: #4A4949;
+	--jc-black-80: #626262;
+	--jc-black-60: #9A9999;
+	--jc-black-40: #CFCFCF;
+	--jc-black-20: #F2F2F2;
+	--jc-white-100: #FCFCFC;
+
+	--jc-aqua-120: #005DAE;
+	--jc-aqua-100: #00C9E8;
+	--jc-aqua-80: #63C5CE;
+	--jc-aqua-60: #8CD6DD;
+	--jc-aqua-40: #BCE9ED;
+	--jc-aqua-20: #E2F9FB;
+
+	--jc-grey-100: #666672;
+	--jc-grey-90: #3F3F3F;
+	--jc-grey-85: #4C4C4C;
+	--jc-grey-80: #848493;
+	--jc-grey-60: #9D9DAE;
+	--jc-grey-40: #C4C4D5;
+	--jc-grey-20: #E7E7FA;
+	--jc-grey-10: #F5F5FF;
+	--jc-grey-5: #F7F7FC;
+	--jc-grey-2: #FCFCFE;
+
+	--jc-coral-110: #DE6244;
+	--jc-coral-100: #F45B69;
+	--jc-coral-80: #FD987F;
+	--jc-coral-60: #FFC2B3;
+	--jc-coral-40: #FFDCD3;
+	--jc-coral-20: #FFF6F4;
+
+
+	--jc-beige-100: #D1C7BF;
+	--jc-beige-80: #E4DDD7;
+	--jc-beige-60: #F9F2EC;
+	--jc-beige-40: #FCF8F5;
+	--jc-beige-20: #FDFBFA;
+
+
+	/* use the below for UI feedback */
+	--jc-red-100: #D40202;
+	--jc-red-80: #D54B4B;
+	--jc-red-60: #ED7A7A;
+	--jc-red-40: #EDA6B5;
+	--jc-red-20: #FCE4E9;
+
+	--jc-yellow-100: #FF8F00;
+	--jc-yellow-80: #ECBD3D;
+	--jc-yellow-60: #FFD45D;
+	--jc-yellow-40: #FEB8B8;
+	--jc-yellow-20: #FFEDED;
+
+	--jc-green-100: #00FFA2;
+	--jc-green-80: #41B46A;
+	--jc-green-60: #91ECB2;
+	--jc-green-40: #C4F6D6;
+	--jc-green-20: #F2FFF7;
+
+
+}

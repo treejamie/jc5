@@ -1,0 +1,27 @@
+body{
+	background-color: var(--jc-grey-10);
+}
+
+/* global header */
+body > header {
+	background-color: var(--jc-coral-100);
+	color: var(--jc-white-100);
+}
+body > header p{
+	color: var(--jc-white-100)
+}
+
+
+/* global main */
+body > main{
+	background-color: var(--jc-white-100);
+	padding: var(--jc-unit);
+}
+
+
+/* global footer */
+body > footer p{
+	color: var(--jc-grey-40);
+	padding: var(--jc-unit);
+	font-size: calc(var(--jc-unit) * 0.625);
+}

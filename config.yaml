@@ -1,7 +1,7 @@
 languageCode: "en-gb"
-baseUrl: ""
+baseUrl: "/"
 title: "Jamie Curle"
-theme: "anubis"
+theme: "read"
 paginate: 10
 enableRobotsTXT: false
 
