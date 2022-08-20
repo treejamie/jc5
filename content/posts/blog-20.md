@@ -1,7 +1,7 @@
 ---
 title: "Blog 2.0"
 date: 2022-01-20T08:21:48Z
-draft: false
+draft: true
 summary: "What can be expected from Blog 2.0?"
 description: "Blog 2.0"
 ---
