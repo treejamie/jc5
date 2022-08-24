@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
 
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="/css/app.css">
 
     <title>{{ block "title" . }}
         {{ .Site.Title }}
@@ -20,9 +20,12 @@
 
 </body>
 
-<body id="home" class="<%= body_class(@conn) %>">
-<header>
-</header>
+
+
+<body id="{{ block "body_id" . }}{{end}}" class="{{block "body_class" . }}{{end}}">
+
+{{ partial "body_header.html" . }}
+
 {{ block "main" . }}
 <main>
 
@@ -40,7 +43,7 @@
 
 
     <p>
-        <b>&copy; Jamie Curle <%= year() %></b>
+        <b>&copy; Jamie Curle {{ .Date.Year }}</b>
     </p>
 </footer>
 

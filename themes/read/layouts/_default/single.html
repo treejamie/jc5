@@ -1,8 +1,41 @@
-{{ define "title" }}
-    <!-- This will override the default value set in baseof.html; i.e., "{{.Site.Title}}" in the original example-->
-    {{ .Title }} &ndash; {{ .Site.Title }}
-    {{ end }}
-    {{ define "main" }}
-        <h1>{{ .Title }}</h1>
-    {{ .Content }}
+{{define "body_id"}}post{{end}}
+
+{{define "body_class"}}building{{end}}
+
+
+{{ define "main" }}
+
+<main>
+    <div class="header">
+        <p>
+            {{ .Date.Format "Mon Jan 2, 2006" }} –
+        </p>
+        <h1 id="post-title">
+            {{ .Title }}
+            {{ .Params.author}}
+        </h1>
+
+    </div>
+
+    <div class="content" id="post-html" data-id="<%= @post.id %>">
+        {{ .Content }}
+
+        <hr>
+
+        <div>
+            <p>
+                The Parent widget
+            </p>
+            <%= for x <- @parent.posts do %>
+
+            <a href="<%= Routes.post_path(@conn, :series, emoji(@parent.category), @parent.public_id, x.public_id)%>">
+                <%= x.title %>
+            </a>
+            <% end %>
+        </div>
+    </div>
+</main>
+
 {{ end }}
+
+

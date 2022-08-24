@@ -26,7 +26,7 @@ body#post div.content{
 	box-shadow: 0 0 var(--jc-unit-half) rgba(0, 0, 0, 0.1);
 }
 
-body#post img{
+body#post article img{
 	border: var(--jc-unit-sixteenth) solid var(--jc-grey-10);
 	border-radius: var(--jc-unit-quarter);
 }
