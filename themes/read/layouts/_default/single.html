@@ -7,32 +7,23 @@
 
 <main>
     <div class="header">
-        <p>
+        <p class="date">
             {{ .Date.Format "Mon Jan 2, 2006" }} –
         </p>
         <h1 id="post-title">
             {{ .Title }}
-            {{ .Params.author}}
         </h1>
 
+        <p class="summary">
+        {{ .Summary }}
+        </p>
     </div>
+
 
     <div class="content" id="post-html" data-id="<%= @post.id %>">
         {{ .Content }}
 
         <hr>
-
-        <div>
-            <p>
-                The Parent widget
-            </p>
-            <%= for x <- @parent.posts do %>
-
-            <a href="<%= Routes.post_path(@conn, :series, emoji(@parent.category), @parent.public_id, x.public_id)%>">
-                <%= x.title %>
-            </a>
-            <% end %>
-        </div>
     </div>
 </main>
 

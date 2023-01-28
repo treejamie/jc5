@@ -2,6 +2,7 @@
 body{
 	color: var(--jc-grey-90);
 	font-weight: 400;
+    font-size: 100%;
 }
 
 
@@ -43,6 +44,12 @@ h6{
 	letter-spacing: calc(var(--jc-unit-sixteenth) * -1);
 }
 
+p{
+    margin: var(--jc-unit) 0;
+    padding-bottom: var(--jc-unit);
+    font-size: var(--jc-unit);
+	color: var(--jc-grey-90)
+}
 
 table {
 	border: 1px solid var(--jc-grey-20);
@@ -105,9 +112,11 @@ blockquote footer{
 
 i, em{
 	font-style: italic;
+    font-weight: 400;
+    font-family: var(--jc-font-serif);
 }
 
-b, strong, cite, em{
+b, strong, cite{
 	font-weight: 900;
 }
 
@@ -182,14 +191,14 @@ small{
 }
 
 a{
-	color: var(--jc-red-100);
+	color: var(--jc-orange-100);
 }
 
 
 hr{
 	border: 0;
 	border-top: var(--jc-unit-quarter) solid var(--jc-grey-40);
-	margin: var(--jc-unit-double);
+	margin: var(--jc-unit-double) 0;
 }
 
 dl {

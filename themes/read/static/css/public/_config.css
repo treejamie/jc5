@@ -6,10 +6,10 @@
 
 	--jc-unit-sixteenth: 1px;
 	--jc-unit-eighth: 2px;
-	--jc-unit-quarter: 4px;
+	--jc-unit-quarter: 3px;
 	--jc-unit-third: 6px;
-	--jc-unit-half: 8px;
-	--jc-unit: 16px;
+	--jc-unit-half: 9px;
+	--jc-unit: 18px;
 	--jc-unit-1-point-5: 24px;
 	--jc-unit-double: 32px;
 	--jc-unit-triple: 48px;
@@ -21,6 +21,8 @@
 	--jc-black-40: #CFCFCF;
 	--jc-black-20: #F2F2F2;
 	--jc-white-100: #FCFCFC;
+
+    --jc-orange-100: #ff4c1a;
 
 	--jc-aqua-120: #005DAE;
 	--jc-aqua-100: #00C9E8;
