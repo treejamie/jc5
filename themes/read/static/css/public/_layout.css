@@ -2,7 +2,7 @@ body{
 	height: 100%;
 	display: grid;
 	grid-gap: 0;
-	grid-template-columns:minmax(20ch, 110ch);  /* oh yes, characters. hello. */
+	grid-template-columns: minmax(20ch, 110ch);  /* oh yes, characters. hello. */
 	grid-template-areas:
 			" main_header 		.	"
 			" main_content		.	"

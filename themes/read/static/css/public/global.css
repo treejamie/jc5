@@ -1,33 +1,38 @@
 body{
-	background-color: var(--jc-grey-10);
+    background-color: var(--jc-grey-10);
+}
+
+div#meat{
+    background-color: var(--jc-white-100);
 }
 
 /* body header */
-body > header {
-	background-color: var(--jc-coral-100);
+div#meat > header {
+	background-color: var(--jc-white-100);
 	color: var(--jc-white-100);
 }
-body > header a{
+div#meat > header a{
 	display: inline-block;
 	height: 80px;
 	width: 80px;
 	margin: 20px;
 	padding: 0;
 }
-body > header a img{
+div#meat > header a img{
 	width: 100%;
 	height: 100%;
 	/* many thanks - https://codepen.io/sosuke/pen/Pjoqqp */
 	filter: invert(96%) sepia(9%) saturate(515%) hue-rotate(318deg) brightness(87%) contrast(86%);
+	transition: filter 0.2s;
 }
 
-body > header a:hover img{
+div#meat > header a:hover img{
 	filter: invert(82%) sepia(19%) saturate(3552%) hue-rotate(147deg) brightness(104%) contrast(102%);
 }
 
 
 /* body main */
-body > main{
+div#meat > main{
 	background-color: var(--jc-white-100);
 	padding: var(--jc-unit);
 }

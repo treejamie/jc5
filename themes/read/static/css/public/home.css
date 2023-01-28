@@ -4,6 +4,10 @@ body#home {
 	/*grid-gap: 0;*/
 }
 
+
+body div#meat{
+    padding: var(--jc-unit);
+}
 body#home div.content{
 	/*grid-area: content;*/
 	/*display: flex;*/

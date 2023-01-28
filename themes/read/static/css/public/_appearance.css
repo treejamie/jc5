@@ -182,7 +182,7 @@ small{
 }
 
 a{
-	color: #005DAE;
+	color: var(--jc-red-100);
 }
 
 

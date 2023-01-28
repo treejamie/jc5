@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
 
@@ -10,45 +10,39 @@
         {{ end }}
     </title>
 </head>
-<body>
 
-<!-- Code that all your templates share, like a header -->
+<body id='{{ block "body_id" . }}{{end}}' class='{{block "body_class" . }}{{end}}'>
+<div id="meat">
 
+    {{ partial "body_header.html" . }}
 
+    {{ block "main" . }}
 
-
-
-</body>
-
-
-
-<body id="{{ block "body_id" . }}{{end}}" class="{{block "body_class" . }}{{end}}">
-
-{{ partial "body_header.html" . }}
-
-{{ block "main" . }}
-<main>
+    <main>
 
 
-    <!-- The part of the page that begins to differ between templates -->
-    I AM MAIN
+        <!-- The part of the page that begins to differ between templates -->
+        I AM MAIN
 
 
 
-</main>
-{{ end }}
+    </main>
+    {{ end }}
 
-{{ block "footer" . }}
-<footer>
+    {{ block "footer" . }}
+    <footer>
 
 
-    <p>
-        <b>&copy; Jamie Curle {{ .Date.Year }}</b>
-    </p>
-</footer>
+        <p>
+            <b>&copy; Jamie Curle {{ now.Format "2006"}}</b>
+        </p>
+    </footer>
 
-<!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
-{{ end }}
+    <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+    {{ end }}
+
+</div>
+
 </body>
 
 
