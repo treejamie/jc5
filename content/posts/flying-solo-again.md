@@ -10,7 +10,7 @@ draft: false
 
 After nine years of employment at [SoPost](https://www.sopost.com) and twenty three years more generally in the  world of web & technology, I've left the my full time role to concentrate on a new career.
 
-That career is split between tree surgery / woodland management and the production of craft goods from the output of all three of those endeavours.  Whilst you "can" just pick up a chainsaw call yourself a tree surgeon, I'm not doing that.  I'm enrolled at a local college and taking a two year course. Specifically a City & Guilds level three advanced technical diploma in arboriculture and forestry. By the time I've completed the course I'll not only have this qualification but also all of the NPTC "tickets" required to get professional insurance and work as a trained, competent professional in arboriculture and forestry industries. Chainsaw maintenance and crosscutting, felling, chippers, climbing, aerial rescue, using a chainsaw from a rope and harness and rigging and dismantling. The whole shebang required to work safely.
+That career is split between tree surgery / woodland management and the production of craft goods from the output of these endeavours.  Whilst you "can" just pick up a chainsaw call yourself a tree surgeon, I'm not doing that.  I'm enrolled at a local college and taking a two year course. Specifically a [City & Guilds level three advanced technical diploma in arboriculture and forestry][4]. By the time I've completed the course I'll not only have this qualification but also all of the NPTC "tickets" required to get professional insurance and work as a trained, competent professional in arboriculture and forestry industries. Chainsaw maintenance and crosscutting, felling, chippers, climbing, aerial rescue, using a chainsaw from a rope and harness and rigging and dismantling. The whole shebang required to work safely.
 
 Last year I also came into the possession of an eight acre parcel of woodland in a larger 200 acre semi-ancient woodland. This is where I'll be getting my hands dirty and learning the ropes of dealing with all things related to trees, woodland, local ecosystems and ecology. I'm sure lucky to have this in my life, it is a turbo charger for learning and exploring all things tree and woodland related.
 
@@ -26,6 +26,7 @@ Serioulsy though, being at the start of something new is a great chance to captu
 
 The types of things I'll be blogging about here is all the kinds of things that aren't strictly related to Life of Treedom but that capture the learning curves. 
 
+And thats the first blog out the way.
 
 Over and out.
 
@@ -36,3 +37,4 @@ Jamie C.
 [1]: https://lifeoftreedom.substack.com/
 [2]: https://www.youtube.com/@lifeoftreedom
 [3]: mailto:jamie@curle.io
+[4]: https://www.youtube.com/watch?v=R-MCGKpXtBE
