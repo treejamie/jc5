@@ -1,0 +1,32 @@
+{{define "body_id"}}post{{end}}
+
+{{define "body_class"}}{{end}}
+
+
+{{ define "main" }}
+
+<main>
+    <div class="header">
+        <p class="date">
+            {{ .Date.Format "Mon Jan 2, 2006" }} –
+        </p>
+        <h1 id="post-title">
+            {{ .Title }}
+        </h1>
+
+        <p class="summary">
+        {{ .Summary }}
+        </p>
+    </div>
+
+
+    <div class="content" id="post-html" data-id="<%= @post.id %>">
+        {{ .Content }}
+
+        <hr>
+    </div>
+</main>
+
+{{ end }}
+
+

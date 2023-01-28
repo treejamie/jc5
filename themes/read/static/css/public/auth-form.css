@@ -1,0 +1,15 @@
+body#auth{
+	height: 100%;
+	display: grid;
+	grid-gap: 0;
+	/*grid-template-columns: auto 100px;*/
+	grid-template-rows: auto minmax(max-content, 400px);
+}
+body#auth.form-error{
+	background-color: var(--jc-coral-100);
+}
+main{
+	grid-area: main_content;
+	border-top-right-radius: 2px;
+	border: 1px solid var(--jc-unit-quarter);
+}

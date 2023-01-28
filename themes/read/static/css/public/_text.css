@@ -1,0 +1,6 @@
+body{
+	font-family: var(--jc-font-sans);
+	font-size: 16px;
+	line-height: 32px;
+	font-weight: 400;
+}
