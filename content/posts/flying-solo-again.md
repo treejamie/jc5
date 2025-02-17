@@ -3,7 +3,7 @@ title: "Plot Twist !"
 date: 2023-01-28T07:59:56Z
 description: ""
 summary: "A new career &amp; a new blog &hellip;"
-draft: false
+draft: true
 ---
 
 ## New Career
