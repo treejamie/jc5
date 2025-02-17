@@ -4,32 +4,61 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="https://uchu.style/color_expanded.css" />
 
     <title>{{ block "title" . }}
         {{ .Site.Title }}
         {{ end }}
     </title>
+<style>
+    body{
+        background-color: var(--uchu-yellow-5);
+    }
+    div#app{
+        color: #3e3e3e;
+        font-size: 32px;
+        line-height: 48px;
+    }
+</style>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 
 <body id='{{ block "body_id" . }}{{end}}' class='{{block "body_class" . }}{{end}}'>
 <div id="meat">
 
-    {{ partial "body_header.html" . }}
+    <div id="app">
 
-    {{ block "main" . }}
+    </div>
 
-    {{ end }}
+    <!-- ul>
+        <li><a href="https://github.com/treejamie">Github</a></li>
+    </ul -->
 
-    {{ block "footer" . }}
-    <footer>
-        <p>
-            <b>&copy; Jamie Curle {{ now.Format "2006"}}</b>
-        </p>
-    </footer>
-
-    {{ end }}
 
 </div>
+<script type="text/javascript">
+var app = document.getElementById('app');
+
+var typewriter = new Typewriter(app, {
+  loop: true,
+  delay: 75,
+});
+
+typewriter
+  .pauseFor(2500)
+  .typeString('Hello, my name is Jamie Curle. I appreciate you visiting.')
+  .pauseFor(300)
+  .typeString('<br><br> As a professional I can assist you with software and trees.')
+  .pauseFor(300)
+  .typeString('<br><br>Tree work keeps me mentally strong and physically fit.')
+  .pauseFor(300)
+  .typeString('<br><br>Software keeps my mind sharp and allows my body to rest.')
+  .pauseFor(300)
+  .typeString('<br><br>Combining these two different careers into one brings me joy, balance and peace.')
+  .pauseFor(300)
+  .start();
+</script>
+
 
 </body>
 
